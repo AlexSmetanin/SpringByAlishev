@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19f85a3-02e0-44bc-9037-62dc995a9268" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/Music.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/RockMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringByAlishev.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestSpring.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,11 +25,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="17">
+                <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -196,7 +201,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656671927391" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1656671985956" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -244,16 +249,23 @@
       <updated>1656535441970</updated>
       <workItem from="1656535446714" duration="1895000" />
     </task>
+    <task id="LOCAL-00001" summary="Spring Framework. Урок 4: Инверсия управления. Inversion of Control (IoC).">
+      <created>1656671993492</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656671993492</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4270000" />
+    <option name="totallyTimeSpent" value="4601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -263,7 +275,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -275,7 +287,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.5725047" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.57123655" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -289,6 +301,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring Framework. Урок 4: Инверсия управления. Inversion of Control (IoC)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 4: Инверсия управления. Inversion of Control (IoC)." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -309,16 +325,6 @@
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#279#280#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="17">
-            <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -375,6 +381,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
