@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b19f85a3-02e0-44bc-9037-62dc995a9268" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/MusicPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestSpring.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,11 +18,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="187">
+              <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#108#109#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,7 +69,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Urok_06" />
+        <entry key="$PROJECT_DIR$" value="Urok_07" />
       </map>
     </option>
   </component>
@@ -51,11 +80,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestBean.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/Music.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/RockMusic.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -172,7 +201,7 @@
       <updated>1656535441970</updated>
       <workItem from="1656535446714" duration="1895000" />
       <workItem from="1656915749043" duration="695000" />
-      <workItem from="1656931964691" duration="1300000" />
+      <workItem from="1656931964691" duration="6127000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Framework. Урок 4: Инверсия управления. Inversion of Control (IoC).">
       <created>1656671993492</created>
@@ -188,11 +217,18 @@
       <option name="project" value="LOCAL" />
       <updated>1656750618037</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring Framework. Урок 7: Bean scope (Область видимости бинов).">
+      <created>1656934958189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656934958189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8519000" />
+    <option name="totallyTimeSpent" value="13346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -238,7 +274,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Spring Framework. Урок 4: Инверсия управления. Inversion of Control (IoC)." />
     <MESSAGE value="Spring Framework. Урок 5: Внедрение зависимостей. Dependency Injection (DI). Введение." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 5: Внедрение зависимостей. Dependency Injection (DI). Введение." />
+    <MESSAGE value="Spring Framework. Урок 7: Bean scope (Область видимости бинов)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 7: Bean scope (Область видимости бинов)." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -253,17 +290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -301,17 +327,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="153">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="187">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
         </state>
       </provider>
     </entry>
