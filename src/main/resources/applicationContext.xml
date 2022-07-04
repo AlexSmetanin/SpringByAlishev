@@ -14,7 +14,8 @@
     </bean>
 
    <bean id="musicPlayer"
-       class="ua.edu.chp.springcourse.MusicPlayer">
+       class="ua.edu.chp.springcourse.MusicPlayer"
+            scope="prototype">
        <property name="music" ref="musicBean"/>
 
        <!--<property name="name" value="Some name"/>-->

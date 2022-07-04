@@ -14,7 +14,8 @@
     </bean>
 
    <bean id="musicPlayer"
-       class="ua.edu.chp.springcourse.MusicPlayer">
+       class="ua.edu.chp.springcourse.MusicPlayer"
+            scope="prototype">
        <property name="music" ref="musicBean"/>
 
        <!--<property name="name" value="Some name"/>-->
@@ -22,5 +23,28 @@
        <property name="name" value="${musicPlayer.name}"/>
        <property name="volume" value="${musicPlayer.volume}"/>
    </bean>
+
+    <!-- Для воспроизведения списка музыки надо создать бины для каждого стиля музыки и внедрить список в бин плейера
+    <bean id="musicBean1"
+          class="ru.alishev.springcourse.ClassicalMusic">
+    </bean>
+
+    <bean id="musicBean2"
+          class="ru.alishev.springcourse.RockMusic">
+    </bean>
+
+    <bean id="musicBean3"
+          class="ru.alishev.springcourse.RapMusic">
+    </bean>
+
+     <bean id="musicPlayer"
+          class="ru.alishev.springcourse.MusicPlayer">
+        <property name="musicList">
+            <list>
+                <ref bean="musicBean1"/>
+                <ref bean="musicBean2"/>
+                <ref bean="musicBean3"/>
+            </list>
+        </property> -->
 
 </beans>
