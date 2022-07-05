@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b19f85a3-02e0-44bc-9037-62dc995a9268" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/Computer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/MusicPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ua/edu/chp/springcourse/TestSpring.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +14,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,7 +41,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Urok_09" />
+        <entry key="$PROJECT_DIR$" value="Urok_10" />
       </map>
     </option>
   </component>
@@ -46,9 +55,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/RockMusic.java" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/ClassicalMusic.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/Computer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/TestSpring.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java" />
       </list>
     </option>
   </component>
@@ -124,7 +133,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1657026011811" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1657027144080" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -168,7 +177,7 @@
       <workItem from="1656535446714" duration="1895000" />
       <workItem from="1656915749043" duration="695000" />
       <workItem from="1656931964691" duration="6185000" />
-      <workItem from="1657011439325" duration="4295000" />
+      <workItem from="1657011439325" duration="5154000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Framework. Урок 4: Инверсия управления. Inversion of Control (IoC).">
       <created>1656671993492</created>
@@ -198,16 +207,24 @@
       <option name="project" value="LOCAL" />
       <updated>1656944408265</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring Framework. Урок 10: Аннотация @Autowired. Внедрение зависимостей (Dependency Injection).">
+      <created>1657026319651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657026319651</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17699000" />
+    <option name="totallyTimeSpent" value="18558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2596401" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -217,7 +234,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3293011" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -249,7 +266,8 @@
     <MESSAGE value="Spring Framework. Урок 5: Внедрение зависимостей. Dependency Injection (DI). Введение." />
     <MESSAGE value="Spring Framework. Урок 7: Bean scope (Область видимости бинов)." />
     <MESSAGE value="Spring Framework. Урок 8: Жизненный цикл бина (Bean Lifecycle). Init, Destroy и Factory методы." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 8: Жизненный цикл бина (Bean Lifecycle). Init, Destroy и Factory методы." />
+    <MESSAGE value="Spring Framework. Урок 10: Аннотация @Autowired. Внедрение зависимостей (Dependency Injection)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework. Урок 10: Аннотация @Autowired. Внедрение зависимостей (Dependency Injection)." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -321,8 +339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/edu/chp/springcourse/MusicPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="193">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
