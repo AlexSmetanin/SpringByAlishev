@@ -1,13 +1,34 @@
 package ua.edu.chp.springcourse;
 
-public class MusicPlayer {
-    private Music music;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-    public MusicPlayer(Music music) {
-        this.music = music;
+@Component
+public class MusicPlayer {
+//    @Autowired
+//    private Music music;
+    private ClassicalMusic classicalMusic;
+    private RockMusic rockMusic;
+
+    @Autowired
+    public MusicPlayer(ClassicalMusic classicalMusic, RockMusic rockMusic) {
+        this.classicalMusic = classicalMusic;
+        this.rockMusic = rockMusic;
     }
 
-    public void playMusic() {
-        System.out.println("Playing: " + music.getSong());
+    //@Autowired
+//    public MusicPlayer(Music music) {
+//        this.music = music;
+//    }
+
+//    @Autowired
+//    public void setMusic(Music music) {
+//        this.music = music;
+//    }
+
+    public String playMusic() {
+//        System.out.println("Playing: " + classicalMusic.getSong());
+//        System.out.println("Playing: " + rockMusic.getSong());
+        return "Playing: " + classicalMusic.getSong();
     }
 }
