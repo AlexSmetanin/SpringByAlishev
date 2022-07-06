@@ -2,6 +2,7 @@ package ua.edu.chp.springcourse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -9,6 +10,20 @@ public class MusicPlayer {
 //    @Autowired
 //    @Qualifier("rockMusic")
 //    private Music music;
+
+    @Value("${musicPlayer.name}")
+    private String name;
+
+    @Value("${musicPlayer.volume}")
+    private int volume;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
     private Music music1;
     private Music music2;
 
@@ -17,7 +32,7 @@ public class MusicPlayer {
         this.music2 = music2;
     }
 
-//@Autowired
+    //@Autowired
 //    public MusicPlayer(Music music) {
 //        this.music = music;
 //    }
